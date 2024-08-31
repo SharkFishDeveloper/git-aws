@@ -1,6 +1,6 @@
 import express from "express"
 import cors from "cors"
-
+//why this doesnot work in AWS ?
 const app = express();
 
 app.use(cors());
